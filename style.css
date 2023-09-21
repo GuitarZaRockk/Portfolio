@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Mitr:wght@300&family=Noto+Sans+Mono:wght@500&family=Noto+Sans+Thai&display=swap');
+
+* {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgb(255, 197, 51);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Noto Sans Mono', monospace;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.2s;
+}
+
+.logo a:hover {
+    color: rgb(18, 23, 137);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 0.2s;
+}
+
+.menu li a:hover {
+    color: rgb(18, 23, 137);
+}
+
+/* เนื้อหา */
+.welcome {
+    background-color: rgb(72, 106 ,178);
+    color: white;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-info {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.welcome-info img {
+    width: 300px;
+    border-radius: 5%;
+}
+
+/* about */
+.about {
+    background-color: rgb(72, 106 ,178);
+    color: white;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+}
+
+.aboutme {
+    display: flex;
+}
+
+.aboutinfor h2 {
+    font-size: 70px;
+    margin-top: 12%;
+    font-family: 'Mitr', sans-serif;
+    text-transform: uppercase;
+}
+
+.aboutinfor p {
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 25px;
+}
+
+.img-me img{
+    width: 500px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.social {
+    display: flex;
+    padding-top: 25px;
+}
+
+.social img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.social p {
+    padding-top: 22px;
+}
+
+/* education */
+.education {
+    background-color: rgb(72, 106 ,178);
+    height: 1000px;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+.education h2 {
+    padding-top: 5%;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Mitr', sans-serif;
+    color: white;
+}
+
+.logo-school {
+    display: flex;
+    padding-top: 5%;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-school img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.information {
+    text-align: start;
+    font-family: 'Mitr', sans-serif;
+    font-size: 25px;
+}
+
+.information h2{
+    font-size: 2rem;   
+}
+
+.information h3{
+    padding-top: 5px; 
+}
+
+.SC1 ,.SC2 ,.SC3 {
+    padding-right: 200px;
+    padding-left: 70px;
+}
+
+/* work */
+.work {
+    background-color: rgb(72, 106 ,178);
+    height:2100px;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+.work h2 {
+    padding-top: 5%;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Mitr', sans-serif;
+    color: white;
+}
+
+.youtube h2 {
+    font-size: 35px;
+}
+
+.clip{
+    display: block;
+}
+
+.flex-clip{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clip1, .clip2, .clip3  {
+    margin-top: 2%;
+}
+
+.clip2, .clip3 {
+    padding-left: 20px;
+}
+
+.ps {
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ps h2 {
+    font-size: 35px;
+}
+
+.ps1, .ps2 {
+    display: flex;
+    margin: 50px;
+}
+
+.ps1 img, .ps2 img {
+    width: 800px;
+    height: 473px;
+}
+
+.ps1 h3, .ps2 h3 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    padding-top: 20%;
+    text-align: start;
+    width: 100%;
+    text-transform: capitalize;
+    padding-left: 200px;
+}
+
+.ps2 h3 {
+    padding-right: 130px;
+}
+
+/* activities */
+.activities {
+    background-color: rgb(72, 106 ,178);
+    height: 5700px;
+    padding-top: 10%;
+}
+
+.activities h1 {
+    padding-top: 4%;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Mitr', sans-serif;
+    padding-bottom: 3%;
+    padding-left: 4%;
+}
+
+.activities h2 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    text-transform: capitalize;
+}
+
+.act-infor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.act-img {
+    height: 350px;
+    width: 560px;
+    padding-top: 30px;
+}
+
+/* certificate */
+.certificate {
+    background-color: rgb(72, 106 ,178);
+    height: 5000px;
+}
+
+.certificate h1 {
+    font-size: 70px;
+    font-family: 'Mitr', sans-serif;
+    color: white;
+    width: 100%;
+    padding-top: 4%;
+    margin-left: 4%;
+}
+
+.flex-cer {
+    display:flex;
+    justify-content: space-around;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+}
+
+.cer h2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-transform: capitalize;
+}
+
+.pic-cer {
+    height:350px;
+    width:500px;
+    padding-top: 20px;
+}
+
+.cer-info {
+    margin-top:80px;
+    padding-bottom: 100px;
+}
+
+.pic-cer1 {
+    height:600px;
+    width:500px;
+    padding-top: 20px;
+}
